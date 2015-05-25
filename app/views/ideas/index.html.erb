@@ -1,3 +1,7 @@
-<h1>Ideas After Sex</h1>
+<h1>Idea Sex</h1>
 
-<p><%= @idea.idea_list %></p>
+<p><%= [@idea.idea_list.split(",")][0].combination(2).to_a %></p>
+</br>
+<p><% [@idea.idea_list.split(",")][0].combination(2).to_a.each do |x| %></p>
+   <p><%= x %></p>
+<% end %>
