@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'ideas/index'
+
+  get 'ideas/new'
+
+  get 'ideas/create'
+
+  resources :ideas
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,9 @@
+<h1 class="top-header">Idea Sex</h1>
+
+<%= form_for @idea do |f| %>
+  <div>
+    <%= f.label :idea_list %>
+    <%= f.text_field :idea_list %>
+  </div>
+  <%= f.submit %>
+<% end %>
