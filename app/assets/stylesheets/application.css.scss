@@ -1,0 +1,125 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font:1em "Ubuntu", cursive;
+    margin: 0 auto ;
+    width:50%
+}
+
+
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+body,
+html {
+  min-height:100%;
+  margin:0;
+  padding:0;
+}
+
+.home-text {
+  text-align:center;
+  font:1em "Ubuntu", cursive;
+}
+
+.bg-image {
+  margin:0;
+  padding:0;
+  height: 300px;
+  width: 100%;
+}
+
+.bg-image-sex {
+  margin:0;
+  padding:0;
+  background-image: asset-data-url("sex2.jpg");
+  background-position: center top -120px;
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+
+.top-header {
+  color: white;
+  text-align: center;
+  padding: 100px;
+  margin:0;
+  font:5em "Ubuntu", cursive;
+  text-shadow: 2px 2px 2px #ff0000;
+  text-shadow: 3px 3px 3px #ff0000;
+}
+
+form input[type=submit] {
+  display: inline-block;
+  padding: 5px 45px;
+  font:1em "Ubuntu", cursive;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #f0f0f0;
+  background: #2cb22c;
+  border: none;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+}
+
+form input[type=submit]:hover {
+  background: #32CD32;
+}
+
+form input[type=text] {
+  display: inline-block;
+  padding: 5px 45px;
+  font:1em "Ubuntu", cursive;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #FF7F62;
+  background: #f0f0f0;
+  border: none;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+}
+
+form label[for=contest_url] {
+  display: inline-block;
+  padding: 5px 45px;
+  font:1em "Ubuntu", cursive;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #f0f0f0;
+  border: none;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+}
+
+.button-span {
+  text-align: center;
+}

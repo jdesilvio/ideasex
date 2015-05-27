@@ -1,9 +1,33 @@
-<h1 class="top-header">Idea Sex</h1>
+<div class="bg-image bg-image-sex">
+  <h1 class="top-header">Idea Sex</h1>
+</div>
 
-<%= form_for @idea do |f| %>
-  <div>
-    <%= f.label :idea_list %>
+<div class="home-text">
+  <h3>Inspired by James Altucher's <a href = http://www.jamesaltucher.com/2014/05/the-ultimate-guide-for-becoming-an-idea-machine/>Idea Sex</a>.</h3>
+</div>
+
+</br>
+
+<div class="home-text">
+  <%= form_for @idea do |f| %>
+    <h3> Input ideas as a comma seperated list: </h3>
     <%= f.text_field :idea_list %>
-  </div>
-  <%= f.submit %>
-<% end %>
+    <%= f.submit "Have Sex!"%>
+  <% end %>
+</div>
+
+<div class="home-text">
+  <h3>OR</h3>
+</div>
+
+<div class="home-text">
+  <%= form_for @idea do |f| %>
+    <h3> Input ideas as a 2 comma seperated list: </h3>
+    <p>List 1:
+    <%= f.text_field :listA %></br></br></p>
+    <p>List 2:
+    <%= f.text_field :listB %></br></br></p>
+    <%= f.submit "Have Sex!"%>
+  <% end %>
+</div>
+

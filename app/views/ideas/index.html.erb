@@ -1,7 +1,42 @@
-<h1>Idea Sex</h1>
+<div class="bg-image bg-image-sex">
+  <h1 class="top-header">Idea Sex</h1>
+</div>
 
-<p><%= [@idea.idea_list.split(",")][0].combination(2).to_a %></p>
 </br>
-<p><% [@idea.idea_list.split(",")][0].combination(2).to_a.each do |x| %></p>
-   <p><%= x %></p>
+
+<% # if idea_list (single array) is submitted by user, display combinations %>
+<% if (@idea.idea_list.nil? == false) %>
+
+  <div class="sex-table">
+    <table>
+      <thead>
+        <th>Idea Sex List</th>
+      </thead>
+      <tbody>
+        <% [@idea.idea_list.split(",")][0].combination(2).to_a.each do |x| %>
+          <tr>
+            <td><%= x.join(" ") %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+<% elsif (@idea.listA.nil? == false && @idea.listB.nil? == false) %>
+
+  <div class="sex-table">
+    <table>
+      <thead>
+        <th>Idea Sex List</th>
+      </thead>
+      <tbody>
+        <% [@idea.listA.split(",")][0].product([@idea.listB.split(",")][0]).to_a.each do |x| %>
+          <tr>
+            <td><%= x.join(" ") %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
 <% end %>
