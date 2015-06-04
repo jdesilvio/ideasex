@@ -1,9 +1,11 @@
 <div class="bg-image bg-image-sex">
   <h1 class="top-header">Idea Sex</h1>
+  <h5 class="tagline">"Combine two ideas to come up with a better idea. Don't forget that idea evolution works much faster than human evolution. You  will ALWAYS come up with better ideas after generations of idea sex.  This is the DNA of all idea generation."</h5>
+  <h5 class="byline">- James Altucher</h5>
 </div>
 
 <div class="home-text">
-  <h3>Inspired by James Altucher's <a href = http://www.jamesaltucher.com/2014/05/the-ultimate-guide-for-becoming-an-idea-machine/>Idea Sex</a>.</h3>
+  <h3 class="inspire">Inspired by James Altucher's <a href = http://www.jamesaltucher.com/2014/05/the-ultimate-guide-for-becoming-an-idea-machine/>Idea Sex</a>.</h3>
 </div>
 
 </br>
@@ -16,13 +18,19 @@
   <% end %>
 </div>
 
+</br>
+</br>
+
 <div class="home-text">
   <h3>OR</h3>
 </div>
 
+</br>
+</br>
+
 <div class="home-text">
   <%= form_for @idea do |f| %>
-    <h3> Input ideas as a 2 comma seperated list: </h3>
+    <h3> Input ideas as 2 comma seperated lists: </h3>
     <p>List 1:
     <%= f.text_field :listA %></br></br></p>
     <p>List 2:
@@ -31,3 +39,28 @@
   <% end %>
 </div>
 
+</br>
+</br>
+
+<div class="home-text">
+  <h3>OR</h3>
+</div>
+
+</br>
+</br>
+
+<div class="home-text">
+  <%= form_for @idea do |f| %>
+    <h3> Input Interests, Skills and Stregths as comma seperated lists: </h3>
+    <p>Interests:
+    <%= f.text_field :interests %></br></br></p>
+    <p>Skills:
+    <%= f.text_field :skills %></br></br></p>
+    <p>Strengths:
+    <%= f.text_field :strengths %></br></br></p>
+    <%= f.submit "Have Sex!"%>
+  <% end %>
+</div>
+
+</br>
+</br>

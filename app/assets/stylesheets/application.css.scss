@@ -6,8 +6,6 @@ table, th, td {
     width:50%
 }
 
-
-
 th, td {
     padding: 15px;
 }
@@ -56,11 +54,35 @@ html {
 .top-header {
   color: white;
   text-align: center;
-  padding: 100px;
+  padding: 40px;
   margin:0;
   font:5em "Ubuntu", cursive;
   text-shadow: 2px 2px 2px #ff0000;
   text-shadow: 3px 3px 3px #ff0000;
+}
+
+.tagline {
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin:0px 380px;
+  font:1.1em "Ubuntu", cursive;
+  text-shadow: 2px 2px 2px #ff0000;
+  text-shadow: 3px 3px 3px #ff0000;
+}
+
+.byline {
+  color: #ccc;
+  text-align: center;
+  padding: 0px;
+  margin:0px 400px;
+  font:1em "Ubuntu", cursive;
+  text-shadow: 2px 2px 2px #ff0000;
+  text-shadow: 3px 3px 3px #ff0000;
+}
+
+.inspire {
+  font:1em "Ubuntu", cursive;
 }
 
 form input[type=submit] {

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150527020603) do
+ActiveRecord::Schema.define(version: 20150604011900) do
 
   create_table "ideas", force: :cascade do |t|
     t.string   "idea_list"
@@ -19,6 +19,10 @@ ActiveRecord::Schema.define(version: 20150527020603) do
     t.datetime "updated_at", null: false
     t.string   "listA"
     t.string   "listB"
+    t.string   "file"
+    t.string   "skills"
+    t.string   "interests"
+    t.string   "strengths"
   end
 
 end

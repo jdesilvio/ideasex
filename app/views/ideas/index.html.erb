@@ -1,5 +1,7 @@
 <div class="bg-image bg-image-sex">
   <h1 class="top-header">Idea Sex</h1>
+  <h5 class="tagline">"Combine two ideas to come up with a better idea. Don't forget that idea evolution works much faster than human evolution. You  will ALWAYS come up with better ideas after generations of idea sex.  This is the DNA of all idea generation."</h5>
+  <h5 class="byline">- James Altucher</h5>
 </div>
 
 </br>
@@ -40,4 +42,22 @@
     </table>
   </div>
 
+<% # if skills, interests and strengths is submitted by user, display combinations %>
+<% elsif (@idea.interests.nil? == false && @idea.skills.nil? == false && @idea.strengths.nil? == false) %>
+
+  <div class="sex-table">
+    <table>
+      <thead>
+        <th>Idea Sex List</th>
+      </thead>
+      <tbody>
+        <% ideaString = 'Use my %s and %s skills for %s' %>
+        <% [@idea.interests.split(",")][0].product([@idea.skills.split(",")][0].product([@idea.strengths.split(",")][0])).to_a.each do |x| %>
+          <tr>
+            <td><%= ideaString % [x[1][1], x[1][0], x[0]] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
 <% end %>

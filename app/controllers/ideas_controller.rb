@@ -19,6 +19,6 @@ class IdeasController < ApplicationController
   private
 
   def idea_params
-    params.require(:idea).permit(:idea_list, :listA, :listB)
+    params.require(:idea).permit(:idea_list, :listA, :listB, :interests, :skills, :strengths)
   end
 end
