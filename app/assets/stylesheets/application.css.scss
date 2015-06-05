@@ -130,7 +130,7 @@ html {
   .home-text {
     text-align:center;
     font:2.2em "Ubuntu", cursive;
-    padding:100px;
+    padding:150px 50px;
   }
 
   form input[type=text] {
@@ -140,10 +140,16 @@ html {
   form label[for=contest_url] {
     font:2.2em "Ubuntu", cursive;
   }
+
+  .inspire {
+    font:2.2em "Ubuntu", cursive;
+    padding:100px;
+  }
 }
 
 .inspire {
-  font:2.2em "Ubuntu", cursive;
+  font:1em "Ubuntu", cursive;
+  padding:100px;
 }
 
 form input[type=submit] {
