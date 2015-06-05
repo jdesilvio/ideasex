@@ -82,10 +82,20 @@ html {
 }
 
 @media (max-width: 980px) {
+  .top-header {
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin:0;
+    font:8em "Ubuntu", cursive;
+    text-shadow: 2px 2px 2px #ff0000;
+    text-shadow: 3px 3px 3px #ff0000;
+  }
+
   .bg-image {
     margin:0;
     padding:0;
-    height: 500px;
+    height: 560px;
     width: 100%;
   }
 
