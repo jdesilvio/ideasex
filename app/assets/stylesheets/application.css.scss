@@ -119,12 +119,21 @@ html {
 
   .home-text {
     text-align:center;
-    font:1em "Ubuntu", cursive;
+    font:2.2em "Ubuntu", cursive;
+    padding:100px;
+  }
+
+  form input[type=text] {
+    font:2.2em "Ubuntu", cursive;
+  }
+
+  form label[for=contest_url] {
+    font:2.2em "Ubuntu", cursive;
   }
 }
 
 .inspire {
-  font:1em "Ubuntu", cursive;
+  font:2.2em "Ubuntu", cursive;
 }
 
 form input[type=submit] {
