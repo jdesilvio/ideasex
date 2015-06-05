@@ -158,7 +158,15 @@ a {
     font:3em "Ubuntu", cursive;
   }
 
-  p.cc, a.ccLink {
+  a.ccLink {
+    font:1.5em "Ubuntu", cursive !important;
+    color: #ccc;
+    padding:5px 5px;
+    line-height:.5em;
+    margin: 0px 0px;
+  }
+
+  p.cc {
     font:1.5em "Ubuntu", cursive;
     color: #ccc;
     padding:5px 5px;
