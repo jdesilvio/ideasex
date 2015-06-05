@@ -94,7 +94,7 @@ html {
     text-align: center;
     padding: 0px;
     margin:0px 50px;
-    font:2em "Ubuntu", cursive;
+    font:2.2em "Ubuntu", cursive;
     text-shadow: 2px 2px 2px #ff0000;
     text-shadow: 3px 3px 3px #ff0000;
   }
@@ -102,11 +102,24 @@ html {
   .byline {
     color: #ccc;
     text-align: center;
-    padding: 0px;
+    padding: 25px;
     margin:0px 50px;
-    font:2em "Ubuntu", cursive;
+    font:2.2em "Ubuntu", cursive;
     text-shadow: 2px 2px 2px #ff0000;
     text-shadow: 3px 3px 3px #ff0000;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font:2.2em "Ubuntu", cursive;
+    margin: 0 auto ;
+    width:50%
+  }
+
+  .home-text {
+    text-align:center;
+    font:1em "Ubuntu", cursive;
   }
 }
 
