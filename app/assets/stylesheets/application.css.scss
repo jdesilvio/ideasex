@@ -82,15 +82,32 @@ html {
 }
 
 @media (max-width: 980px) {
-    .byline {
-      color: #ccc;
-      text-align: center;
-      padding: 0px;
-      margin:0px 50px;
-      font:2em "Ubuntu", cursive;
-      text-shadow: 2px 2px 2px #ff0000;
-      text-shadow: 3px 3px 3px #ff0000;
-    }
+  .bg-image {
+    margin:0;
+    padding:0;
+    height: 500px;
+    width: 100%;
+  }
+
+  .tagline {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin:0px 50px;
+    font:2em "Ubuntu", cursive;
+    text-shadow: 2px 2px 2px #ff0000;
+    text-shadow: 3px 3px 3px #ff0000;
+  }
+
+  .byline {
+    color: #ccc;
+    text-align: center;
+    padding: 0px;
+    margin:0px 50px;
+    font:2em "Ubuntu", cursive;
+    text-shadow: 2px 2px 2px #ff0000;
+    text-shadow: 3px 3px 3px #ff0000;
+  }
 }
 
 .inspire {
