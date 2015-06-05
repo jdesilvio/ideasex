@@ -29,9 +29,22 @@ html {
   padding:0;
 }
 
+p, a.ccLink {
+  font:.75em "Ubuntu", cursive;
+  color: #ccc;
+  padding:5px 5px;
+  line-height:.5em;
+  margin: 0px 0px;
+}
+
+a {
+  color: #CA0027;
+}
+
 .home-text {
   text-align:center;
   font:1em "Ubuntu", cursive;
+  padding:10px;
 }
 
 .bg-image {
@@ -74,7 +87,7 @@ html {
 .byline {
   color: #ccc;
   text-align: center;
-  padding: 0px;
+  padding: 10px;
   margin:0px 400px;
   font:1em "Ubuntu", cursive;
   text-shadow: 2px 2px 2px #ff0000;
@@ -130,7 +143,7 @@ html {
   .home-text {
     text-align:center;
     font:2.2em "Ubuntu", cursive;
-    padding:150px 50px;
+    padding:50px 150px;
   }
 
   form input[type=text] {
@@ -142,14 +155,20 @@ html {
   }
 
   .inspire {
-    font:2.2em "Ubuntu", cursive;
-    padding:100px;
+    font:3em "Ubuntu", cursive;
+  }
+
+  p, a.ccLink {
+    font:.75em "Ubuntu", cursive;
+    color: #ccc;
+    padding:5px 5px;
+    line-height:.5em;
+    margin: 0px 0px;
   }
 }
 
 .inspire {
-  font:1em "Ubuntu", cursive;
-  padding:100px;
+  font:1.5em "Ubuntu", cursive;
 }
 
 form input[type=submit] {
