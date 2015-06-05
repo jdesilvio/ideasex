@@ -173,6 +173,13 @@ a {
     line-height:.5em;
     margin: 0px 0px;
   }
+
+  div.footer {
+    background-color: #4d4d4d;
+    color: #ccc;
+    font:2em "Ubuntu", cursive;
+    padding: 50px;
+  }
 }
 
 .inspire {
@@ -238,4 +245,15 @@ form label[for=contest_url] {
 
 .button-span {
   text-align: center;
+}
+
+div.footer {
+  background-color: #4d4d4d;
+  color: #ccc;
+  font:1em "Ubuntu", cursive;
+  padding: 50px;
+}
+
+a.aFooter {
+  color: #eee;
 }
