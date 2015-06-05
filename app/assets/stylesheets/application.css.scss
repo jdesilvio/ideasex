@@ -81,6 +81,18 @@ html {
   text-shadow: 3px 3px 3px #ff0000;
 }
 
+@media (max-width: 980px) {
+    .byline {
+      color: #ccc;
+      text-align: center;
+      padding: 0px;
+      margin:0px 50px;
+      font:2em "Ubuntu", cursive;
+      text-shadow: 2px 2px 2px #ff0000;
+      text-shadow: 3px 3px 3px #ff0000;
+    }
+}
+
 .inspire {
   font:1em "Ubuntu", cursive;
 }
